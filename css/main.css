@@ -1,4 +1,19 @@
+/* Estilos del Navbar */
 .navbar-collapse {
     display: flex;
     justify-content: flex-end;
+}
+
+/* Estilos del Footer */
+footer {
+    background-color: bisque;
+    height: 80px;
+}
+
+footer div ul li {
+    display: inline-block;
+}
+
+footer div :nth-child(1) {
+    text-align: center;
 }
