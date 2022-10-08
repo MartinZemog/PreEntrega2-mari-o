@@ -4,11 +4,13 @@
     justify-content: flex-end;
 }
 
-/* Estilos del Footer */
-footer {
-    background-color: bisque;
-    height: 80px;
+.navbar {
+    position: sticky;
+    top: 0px;
 }
+
+/* Estilos del Footer */
+
 
 footer div ul li {
     display: inline-block;
@@ -16,4 +18,8 @@ footer div ul li {
 
 footer div :nth-child(1) {
     text-align: center;
+}
+
+footer ul li a svg {
+    margin: 0 16px;
 }
