@@ -23,3 +23,72 @@ footer div :nth-child(1) {
 footer ul li a svg {
     margin: 0 16px;
 }
+
+/* Pagina Contacto */
+.contacto {
+    padding: 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacto-2 {
+    padding: 12px;
+}
+
+/* Pagina Nosotros */
+@media  screen and (max-width: 768px) {
+    .pg-nosotros {
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+/* Pagina Eventos */
+.eventos {
+    padding: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media  screen and (max-width: 480px) {
+    .eventos {
+        flex-direction: column;
+    }
+
+    .e-2 {
+        flex-direction: column-reverse;
+    }
+
+    
+}
+
+/* Pagina inicio */
+@media screen and (max-width: 768px) {
+    .main-inicio{
+        text-align: center;
+    }
+}
+
+@media  screen and (max-width: 480px) {
+    .i-3{
+        flex-direction: column-reverse;
+    } 
+    .i-2{
+        flex-direction: column;
+    } 
+}
+
+.inicio {
+    padding: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
