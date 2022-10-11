@@ -1,3 +1,32 @@
+body {
+    background-color: rgba(79, 79, 79, 0.225);
+
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "header" 
+    "main"
+    "footer"
+    
+    ;
+}
+
+nav {
+    grid-area: nav;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
 /* Estilos del Navbar */
 .navbar-collapse {
     display: flex;
@@ -140,4 +169,28 @@ footer ul li a svg:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Pagina productos */
+.productos {
+    padding: 16px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .productos {
+        padding: 16px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    img {
+        padding: 16px;
+    }
+
 }
